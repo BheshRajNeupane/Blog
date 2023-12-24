@@ -9,6 +9,7 @@ $ npm run start: dev <br>
 $ npm run start: prod <br>
 
 **API link:** 
+https://documenter.getpostman.com/view/24028174/2s9YkrcfSD
 
 **Documentation**
 
