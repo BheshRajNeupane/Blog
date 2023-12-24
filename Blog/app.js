@@ -2,7 +2,6 @@ const express = require('express');
 const app = express();
 const blogRouter = require('./routes/blogRoutes');
 const globalErrorHandler = require('./controllers/errorController');
-
 const rateLimit = require('express-rate-limit')
 const helmet = require('helmet')
 const mongoSanitize = require('express-mongo-sanitize') 
@@ -56,9 +55,8 @@ app.all( ' * ' , (req,res,next)=>{
     next( new AppError(`Can't find ${req.originalUrl} on this server!`,404));
    });
 
-   //Global Erro Handeling
-   app.use(globalErrorHandler)
-
+ //Global Erro Handeling
+ app.use(globalErrorHandler)
 
 
 module.exports = app;

@@ -63,8 +63,6 @@ module.exports = (err, req, res, next) => {
       error = handleDublicateFieldsDB(error);
     }
   
-  
-
     sendErrorProd(err, res);
   }
 };

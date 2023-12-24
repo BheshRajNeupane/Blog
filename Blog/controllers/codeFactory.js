@@ -4,8 +4,7 @@ const Model = require('../Models/blogModel')
 //Main objective to create this codeFactory is to follow DRY principle and focuses on code reuseabilty.
 //doc --> document (  blog for this project  )
 
-exports.createOne = Model=>catchAsync (async (req,res,next)=>{  
-   
+exports.createOne = Model=>catchAsync (async (req,res,next)=>{   
     const doc = await Model.create(req.body)
         res.status(201).json({
             status:"success",
