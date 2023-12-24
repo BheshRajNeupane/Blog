@@ -13,6 +13,8 @@ https://documenter.getpostman.com/view/24028174/2s9YkrcfSD
 
 **Documentation**
 
+[Intuji Assignment.pdf](https://github.com/BheshRajNeupane/Blog/files/13761096/Intuji.Assignment.pdf)
+
 
 
 
